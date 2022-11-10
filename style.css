@@ -1,0 +1,80 @@
+body {
+    background-color: #f1f1f1;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    background-color: tomato;
+}
+
+.header-elements {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center
+}
+
+.time-div {
+    margin-left: 10%;
+}
+
+.score-element {
+    padding-right: 50px;
+}
+
+h2 {
+    background-color: #0c5d76;
+    padding: 2px 15px 2px 15px;
+    border-radius: 5px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background-image: url(background.png);
+    background-size: cover;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    width: 618px;
+    height: 618px;
+    gap: 0.5rem;
+}
+
+.centered {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%, -50%);
+}
+
+
+/* @media (max-width: 479px) {
+    .grid {
+        margin-left: 0px;
+    }
+} */
+
+.mole {
+    background-image: url(mole&bg.png);
+    background-size: cover;
+}
